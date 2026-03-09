@@ -5,7 +5,7 @@ A hardware and software interface for the **Arduino Mega 2560 R3** to communicat
 This project implements a state machine capable of syncing with the ECU at 2400 baud, handling the DCL parity/checksum rules, switching to 9600 baud for high-speed communication, and extracting raw diagnostic data.
 
 ## ⚠️ Disclaimer
-This project involves direct communication with your vehicle's Engine Control Unit. **Use it at your own risk.** I am not responsible for any damage caused to your ECU, wiring harness, or Arduino board. Always ensure your wiring is correct before plugging it into the diagnostic port.
+This project involves direct communication with your vehicle's ECU. **Use it at your own risk.** I am not responsible for any damage caused to your ECU, wiring harness, or Arduino board. Always ensure your wiring is correct before plugging it into the diagnostic port.
 
 ## 🛠️ Hardware Requirements
 
@@ -40,7 +40,7 @@ All raw hexadecimal data and debug messages are printed to the primary `Serial` 
 
 ## 🤝 Credits & Acknowledgements
 
-This project was built upon the incredible reverse-engineering work and documentation from the open-source community:
+This project was built upon the incredible work and documentation from the open-source community:
 * [babroval - FORD EEC-IV diagnostic scanner](https://github.com/babroval/ford-eec-iv-diagnostic)
 * [flxkrmr - Arduino EEC IV Reader](https://github.com/flxkrmr/eec-iv-reader-arduino)
 
